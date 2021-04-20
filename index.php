@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,19 +36,48 @@
             <div class="clear"></div>
         </div><!--center-->
     </section><!--topo-->
+    <div class="circle"><i class="fas fa-angle-down"></i></div>
+    <!--circle-->
+    <section class="clientes-slider">
+        <div class="center">
+        <div style="max-width:700px;margin:0 auto;overflow:hidden;" class="slider-container">
+            <img src="img/amazon.png" alt="Amazon">
+            <img src="img/costco.png" alt="CostCo">
+            <img src="img/dominos.png" alt="Dominos">
+            <img src="img/uber.png" alt="Uber">
+            <img src="img/walmart.png" alt="walmart">
+            <img src="img/amazon.png" alt="Amazon">
+            <img src="img/costco.png" alt="CostCo">
+            <img src="img/dominos.png" alt="Dominos">
+            <img src="img/uber.png" alt="Uber">
+            <img src="img/walmart.png" alt="walmart">
+        </div><!--slider-container-->
+        </div><!--center-->
+    </section><!--clientes-slider-->
 
+
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
     <script type="text/javascript">
-        $('.container-slider').slick({
+        $('section.clientes-slider .slider-container').slick({
             dots: true,
             arrows: false,
-            infinite: true,
-            centerMode: true,
-            centerPadding: 0,
+            infinite: false,
+            centerMode: false,
             speed: 1000,
-            slidesToShow: 1,
+            slidesToShow: 4,
             autoplay: true,
             autoplaySpeed: 3000,
-            pauseOnHover: false
+            pauseOnHover: false,
+            responsive:
+            [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                }
+            ]
         });
     </script>
     
