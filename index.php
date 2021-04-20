@@ -34,6 +34,21 @@
             <div class="clear"></div>
         </div><!--center-->
     </section><!--topo-->
+
+    <script type="text/javascript">
+        $('.container-slider').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            centerMode: true,
+            centerPadding: 0,
+            speed: 1000,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover: false
+        });
+    </script>
     
 </body>
 </html>
