@@ -156,6 +156,30 @@ li.slick-active button{
     outline: none;
 }
 
+/*END SLICK*/
+
+section.diferenciais{
+    padding: 30px 0;
+}
+
+section.diferenciais h2{
+    color: #202020;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons-diferenciais{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-single-diferenciais{
+    text-align: center;
+    width: 33.3%;
+}
+
 @media screen and (max-width: 768px){
     .w50{
         width: 100%;
