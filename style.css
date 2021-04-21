@@ -178,9 +178,30 @@ section.diferenciais h2{
 .box-single-diferenciais{
     text-align: center;
     width: 33.3%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.box-single-diferenciais img{
+    max-width: 100%;
+}
+
+.box-single-diferenciais h3{
+    font-size: 17px;
+    margin: 10px 0;
+    color: #202020;
+}
+
+.box-single-diferenciais p{
+    font-size: 14px;
+    color: #202020;
 }
 
 @media screen and (max-width: 768px){
+    .box-single-diferenciais{
+        width: 100%;
+    }
+
     .w50{
         width: 100%;
     }

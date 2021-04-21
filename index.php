@@ -65,14 +65,14 @@
                     <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
                 </div><!--box-single-diferenciais-->
                 <div class="box-single-diferenciais">
-                    <img src="img/ilustracao-01.png" alt="Ícone">
-                    <h3>Ambientes Mobile</h3>
-                    <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
+                    <img src="img/ilustracao-02.png" alt="Ícone">
+                    <h3>Sites e Intranets</h3>
+                    <p>Um diálogo só acontece quando ambas as partes falam e escutam, garanta que seu público te entenda.</p>
                 </div><!--box-single-diferenciais-->
                 <div class="box-single-diferenciais">
-                    <img src="img/ilustracao-01.png" alt="Ícone">
-                    <h3>Ambientes Mobile</h3>
-                    <p>Garanta que toda sua comunicação esteja alinhada com seu propósito, cada palavra conta.</p>
+                    <img src="img/ilustracao-03.png" alt="Ícone">
+                    <h3>Comunicação one-to-one</h3>
+                    <p>O digital veio para ficar, sem dúvidas, mas uma comunicação integrada de verdade exige clareza nas decisões.</p>
                 </div><!--box-single-diferenciais-->
             </div><!--icons-diferenciais-->
         </div><!--center-->
