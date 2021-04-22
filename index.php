@@ -86,6 +86,21 @@
         </div><!--center-->
     </section><!--diferenciais-->
 
+    <section class="sobre-time">
+        <div class="center">
+            <div class="w50 time-descricao-2">
+                <h2>Um time experiente,<br/>comunicador e coeso.</h2>
+                <p>A DAST acredita que marcas fortes são construídas à partir de transformações importantes e positivas na vida dos consumidores. Exatamente como uma conversa que ganha forma, a ideia vira flâmula.
+                <br/><br/>
+                Comunicar bem, de forma coerente e clara não é algo fácil e estamos aqui para ajudar você e seu time. Você escolhe, remoto ou presencial, para seu cliente ou seu público interno, você determina como vamos te ajudar.</p>
+            </div><!--w50-->
+            <div class="w50 img-time">
+                <img src="img/time.png" alt="Time">
+            </div><!--w50-->
+            <div class="clear"></div><!--clear-->
+        </div><!--center-->
+    </section><!--sobre-time-->
+
 
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
