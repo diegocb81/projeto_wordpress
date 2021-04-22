@@ -101,6 +101,32 @@
         </div><!--center-->
     </section><!--sobre-time-->
 
+    <section class="depoimentos">
+        <div class="center">
+            <h2>Depoimentos</h2>
+            <div class="depoimentos-box">
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan tortor eu pellentesque scelerisque. In
+                    sollicitudin tortor enim, volutpat tristique lacus luctus ut."</p>
+                    <p>Diego Barcellos</p>
+                    <img src="img/foto_diego_barcellos.png" alt="Autor">
+                </div><!--depoimento-single-->
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan tortor eu pellentesque scelerisque. In
+                    sollicitudin tortor enim, volutpat tristique lacus luctus ut."</p>
+                    <p>Diego Barcellos</p>
+                    <img src="img/foto_diego_barcellos.png" alt="Autor">
+                </div><!--depoimento-single-->
+                <div class="depoimento-single">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan tortor eu pellentesque scelerisque. In
+                    sollicitudin tortor enim, volutpat tristique lacus luctus ut."</p>
+                    <p>Diego Barcellos</p>
+                    <img src="img/foto_diego_barcellos.png" alt="Autor">
+                </div><!--depoimento-single-->
+            </div><!--depoimentos-box-->
+        </div><!--center-->
+    </section><!--depoimentos-->
+
 
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
@@ -125,6 +151,15 @@
                 }
             ]
         });
+
+         $('section.depoimentos .depoimentos-box').slick({
+                dots: true,
+                arrows: false,
+                infinite: true,
+                centerMode: false,
+                speed: 1000,
+                slidesToShow: 1,
+            });
     </script>
     <script>
         $('.menu-mobile i').click(function () {
