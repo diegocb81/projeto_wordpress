@@ -127,6 +127,14 @@
         </div><!--center-->
     </section><!--depoimentos-->
 
+    <section class="metodologia">
+        <div class="center">
+            <h2>Conheça nossa metodologia</h2>
+            <p>O que acha de fazermos o que mais gostamos de fazer? Conversar!<br>Entre em contato por e-mail ou telefone</p>
+            <a href="/contato">Entrar em contato</a>
+        </div><!--center-->
+    </section><!--metodologia-->
+
 
     <script src="js/jquery.js"></script>
     <script src="js/slick.min.js"></script>
