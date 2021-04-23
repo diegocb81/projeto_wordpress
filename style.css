@@ -394,6 +394,25 @@ section.sobre-equipe img{
     text-align: justify;
 }
 
+section.sobre-imagens{
+    padding: 100px 0;
+    background-color: #f4f9fd;
+}
+
+.sobre-imagens > .center{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-imagens img{
+    max-width: 100%;
+}
+
+.sobre-imagens .img-sobre{
+    padding: 0 30px;
+    width: 25%;
+}
+
 @media screen and (max-width: 768px){
     .col-footer{
         width: 100% !important;
@@ -417,7 +436,13 @@ section.sobre-equipe img{
     }
     section.sobre-equipe img{
         margin-top: 20px;
-        display: block;
     }
+    .sobre-imagens .img-sobre{
+        padding: 0 30px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
 }
 
