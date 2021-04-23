@@ -44,8 +44,8 @@
             <div class="clear"></div>
         </div><!--center-->
     </section><!--topo-->
-    <div class="circle"><i class="fas fa-angle-down"></i></div>
-    <!--circle-->
+    <div class="circle"><i class="fas fa-angle-down"></i></div><!--circle-->
+    
     <section class="clientes-slider">
         <div class="center">
         <div style="max-width:700px;margin:0 auto;overflow:hidden;" class="slider-container">
