@@ -127,6 +127,7 @@
         </div><!--center-->
     </section><!--depoimentos-->
 
+    <footer>
     <section class="metodologia">
         <div class="center">
             <h2>Conheça nossa metodologia</h2>
@@ -134,6 +135,27 @@
             <a href="/contato">Entrar em contato</a>
         </div><!--center-->
     </section><!--metodologia-->
+        <div class="center">
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div><!--col-footer-->
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div><!--col-footer-->
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="">Contato</a>
+                <a href="">FAQ</a>
+            </div><!--col-footer-->
+            <div style="width: 40%;text-align:right;" class="col-footer">
+                <img src="img/logo-dummy.png" alt="Logo">
+            </div><!--col-footer-->
+        </div><!--center-->
+    </footer>
 
 
     <script src="js/jquery.js"></script>
