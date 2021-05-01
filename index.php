@@ -18,9 +18,9 @@
                 <div class="logo"><img src="img/logo.png" alt="Logotipo"></div><!--logo-->
             </header>
             <ul class="menu-desktop">
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="home">Home</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
+                <li><a href="contato.php">Contato</a></li>
             </ul><!--menu-desktop-->
             <div class="menu-mobile">
                 <i class="fas fa-align-right"></i>
