@@ -18,7 +18,7 @@
                 <div class="logo"><img src="img/logo.png" alt="Logotipo"></div><!--logo-->
             </header>
             <ul class="menu-desktop">
-                <li><a href="home">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="sobre.php">Sobre</a></li>
                 <li><a href="contato.php">Contato</a></li>
             </ul><!--menu-desktop-->

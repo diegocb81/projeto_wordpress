@@ -19,15 +19,15 @@
             </header>
             <ul class="menu-desktop">
                 <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="sobre.php">Sobre</a></li>
+                <li><a href="contato.php">Contato</a></li>
             </ul><!--menu-desktop-->
             <div class="menu-mobile">
                 <i class="fas fa-align-right"></i>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="sobre.php">Sobre</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
             </div><!--menu-mobile-->
             <div class="clear"></div>

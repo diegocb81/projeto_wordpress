@@ -17,44 +17,24 @@
     <section class="topo">
         <div class="center">
             <header>
-                <div class="logo"><img src="img/logo.png" alt="Logotipo"></div>
-                <!--logo-->
+                <div class="logo"><img src="img/logo.png" alt="Logotipo"></div><!--logo-->
             </header>
             <ul class="menu-desktop">
-                <li><a href="home">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="sobre.php">Sobre</a></li>
                 <li><a href="contato.php">Contato</a></li>
-            </ul>
-            <!--menu-desktop-->
+            </ul><!--menu-desktop-->
             <div class="menu-mobile">
                 <i class="fas fa-align-right"></i>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="sobre.php">Sobre</a></li>
+                    <li><a href="contato.php">Contato</a></li>
                 </ul>
-            </div>
-            <!--menu-mobile-->
+            </div><!--menu-mobile-->
             <div class="clear"></div>
-            <br />
-            <br />
-            <div class="w50 time-descricao">
-                <h2>Melhore a comunicação com seu cliente e time.</h2>
-                <p>Consultoria especializada em startups, empresas, e principalmente, pessoas.</p>
-                <a href="https://github.com/diegocb81" target="_blank">Ver demonstração</a>
-            </div>
-            <!--w50-time-descricao-->
-            <div class="w50 time-imagem">
-                <img src="img/equipe.png" alt="Equipe">
-            </div>
-            <!--w50-time-imagem-->
-            <div class="clear"></div>
-        </div>
-        <!--center-->
-    </section>
-    <!--topo-->
-    <div class="circle"><i class="fas fa-angle-down"></i></div>
-    <!--circle-->
+        </div><!--center-->
+    </section><!--topo-->
 
     <footer>
         <div class="center">
