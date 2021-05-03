@@ -49,12 +49,14 @@
             </div><!--w50-contato-info-->
             <div class="w50 contato-form">
                 <form>
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <select></select>
-                    <textarea></textarea>
+                    <input placeholder="Nome" type="text">
+                    <input placeholder="E-mail" type="text">
+                    <input placeholder="Telefone" type="text">
+                    <select>
+                        <option>Geral</option>
+                        <option>Suporte</option>
+                    </select>
+                    <textarea placeholder="Mensagem"></textarea>
                     <input type="submit" value="Enviar!">
                 </form>
             </div><!--w50-contato-form-->
@@ -62,7 +64,7 @@
         </div><!--center-->
     </section><!--contato-->
 
-    <footer>
+    <footer style="padding: 50px 0;">
         <div class="center">
             <div class="col-footer">
                 <h2>Suporte</h2>
