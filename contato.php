@@ -36,6 +36,14 @@
         </div><!--center-->
     </section><!--topo-->
 
+    <section class="contato">
+        <div class="center">
+            <div class="w50">
+
+            </div><!--w50-->
+        </div><!--center-->
+    </section><!--contato-->
+
     <footer>
         <div class="center">
             <div class="col-footer">
