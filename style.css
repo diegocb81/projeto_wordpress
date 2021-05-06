@@ -362,6 +362,10 @@ footer > .center{
     flex-wrap: wrap;
 }
 
+footer img{
+    border-radius: 5px;
+}
+
 .col-footer{
     width: 20%;
 }

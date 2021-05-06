@@ -91,7 +91,7 @@
                 <a href="">FAQ</a>
             </div><!--col-footer-->
             <div style="width: 40%;text-align:right;" class="col-footer">
-                <img src="img/logo-dummy.png" alt="Logo">
+                <img src="img/logo_dast.png" alt="Logo">
             </div><!--col-footer-->
         </div><!--center-->
     </footer>
