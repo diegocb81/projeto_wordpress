@@ -18,7 +18,7 @@
     <section class="topo">
         <div class="center">
             <header>
-                <div class="logo"><img src="img/logo.png" alt="Logotipo"></div><!--logo-->
+                <div class="logo"><img src="img/logo_dast.png" alt="Logotipo"></div><!--logo-->
             </header>
             <ul class="menu-desktop">
                 <li><a href="index.php">Home</a></li>

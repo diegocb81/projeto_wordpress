@@ -72,6 +72,10 @@ section.topo{
     float: left;
 }
 
+.logo img{
+    border-radius: 5px;
+}
+
 .menu-desktop{
     float: right;
 }
