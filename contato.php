@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" href="img/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -70,67 +71,31 @@
                 <h2>Suporte</h2>
                 <a href="">Contato</a>
                 <a href="">FAQ</a>
-            </div>
-            <!--col-footer-->
+            </div><!--col-footer-->
             <div class="col-footer">
                 <h2>Suporte</h2>
                 <a href="">Contato</a>
                 <a href="">FAQ</a>
-            </div>
-            <!--col-footer-->
+            </div><!--col-footer-->
             <div class="col-footer">
                 <h2>Suporte</h2>
                 <a href="">Contato</a>
                 <a href="">FAQ</a>
-            </div>
-            <!--col-footer-->
+            </div><!--col-footer-->
             <div style="width: 40%;text-align:right;" class="col-footer">
                 <img src="img/logo-dummy.png" alt="Logo">
-            </div>
-            <!--col-footer-->
-        </div>
-        <!--center-->
+            </div><!--col-footer-->
+        </div><!--center-->
     </footer>
 
 
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script type="text/javascript">
-        $('section.clientes-slider .slider-container').slick({
-            dots: true,
-            arrows: false,
-            infinite: false,
-            centerMode: false,
-            speed: 1000,
-            slidesToShow: 4,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            pauseOnHover: false,
-            responsive:
-                [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 2
-                        }
-                    }
-                ]
-        });
-
-        $('section.depoimentos .depoimentos-box').slick({
-            dots: true,
-            arrows: false,
-            infinite: true,
-            centerMode: false,
-            speed: 1000,
-            slidesToShow: 1,
-        });
-    </script>
-    <script>
-        $('.menu-mobile i').click(function () {
-            $('.menu-mobile').find('ul').slideToggle();
-        })
-    </script>
+<script src="js/jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCZFPyu5iVf1NgMAiCBSfgYWIOtlv8korY"></script>
+<script src="js/map.js"></script>    
+<script>
+    $('.menu-mobile i').click(function(){
+        $('.menu-mobile').find('ul').slideToggle();
+    })
+</script>
 </body>
-
 </html>
