@@ -27,7 +27,7 @@
             </div><!--col-footer-->
         </div><!--center-->
     </footer>
-
+    <?php wp_footer(); ?>
 
     <script src="<?php echo get_theme_root_uri(); ?>/projeto_wordpress/js/jquery.js"></script>
     <script src="<?php echo get_theme_root_uri(); ?>/projeto_wordpress/js/slick.min.js"></script>
