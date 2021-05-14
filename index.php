@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
             <div class="clear"></div>
             <br/>
             <br/>
@@ -95,3 +95,5 @@
             </div><!--depoimentos-box-->
         </div><!--center-->
     </section><!--depoimentos-->
+
+<?php get_footer(); ?>
