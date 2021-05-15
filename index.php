@@ -15,13 +15,7 @@
     </section><!--topo-->
     <div class="circle"><i class="fas fa-angle-down"></i></div><!--circle-->
     <section class="conteudo-da-pagina">
-        <?php if(have_posts()){ 
-        
-         while (have_posts()){ : the_post();}
-            the_content();
-
-        }
-        ?> 
+    <?php the_content(); ?>
     </section><!--conteudo-da-pagina-->
 
     
