@@ -14,6 +14,14 @@
         </div><!--center-->
     </section><!--topo-->
     <div class="circle"><i class="fas fa-angle-down"></i></div><!--circle-->
+    <section class="conteudo-da-pagina">
+        <?php if (have_posts()) : while (have_posts()) : the_post();
+        the_content();
+        endwhile; else: ?>
+        <p>Sorry, no posts matched your criteria.</p>
+        <?php endif; ?>
+    </section><!--conteudo-da-pagina-->
+
     
     <section class="clientes-slider">
         <div class="center">
