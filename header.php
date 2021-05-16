@@ -22,15 +22,15 @@
                 <div class="logo"><img src="<?php echo get_theme_root_uri(); ?>/projeto_wordpress/img/logo_dast.png" alt="Logotipo"></div><!--logo-->
             </header>
             <ul class="menu-desktop">
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="/wordpress/">Home</a></li>
+                <li><a href="/wordpress/sobre">Sobre</a></li>
+                <li><a href="/wordpress/contato">Contato</a></li>
             </ul><!--menu-desktop-->
             <div class="menu-mobile">
                 <i class="fas fa-align-right"></i>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="/wordpress/">Home</a></li>
+                    <li><a href="/wordpress/sobre">Sobre</a></li>
+                    <li><a href="/wordpress/contato">Contato</a></li>
                 </ul>
             </div><!--menu-mobile-->
